@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7523F82902FD0E007184D6 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7523F62902FD0E007184D6 /* BlurView.swift */; };
+		4B7523F92902FD0E007184D6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7523F72902FD0E007184D6 /* Home.swift */; };
 		4BB0E09A2902D8E000212AF9 /* SwiftUIKavsoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E0992902D8E000212AF9 /* SwiftUIKavsoftApp.swift */; };
 		4BB0E09C2902D8E000212AF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E09B2902D8E000212AF9 /* ContentView.swift */; };
 		4BB0E09E2902D8E100212AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0E09D2902D8E100212AF9 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7523F62902FD0E007184D6 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		4B7523F72902FD0E007184D6 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4BB0E0962902D8E000212AF9 /* SwiftUIKavsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIKavsoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB0E0992902D8E000212AF9 /* SwiftUIKavsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKavsoftApp.swift; sourceTree = "<group>"; };
 		4BB0E09B2902D8E000212AF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +36,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7523F52902FD0E007184D6 /* ProfileTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				4B7523F62902FD0E007184D6 /* BlurView.swift */,
+				4B7523F72902FD0E007184D6 /* Home.swift */,
+			);
+			name = ProfileTwitter;
+			path = SwiftUIKavsoft/ProfileTwitter;
+			sourceTree = "<group>";
+		};
 		4BB0E08D2902D8E000212AF9 = {
 			isa = PBXGroup;
 			children = (
+				4B7523F52902FD0E007184D6 /* ProfileTwitter */,
 				4BB0E0982902D8E000212AF9 /* SwiftUIKavsoft */,
 				4BB0E0972902D8E000212AF9 /* Products */,
 			);
@@ -139,6 +154,8 @@
 			files = (
 				4BB0E09C2902D8E000212AF9 /* ContentView.swift in Sources */,
 				4BB0E09A2902D8E000212AF9 /* SwiftUIKavsoftApp.swift in Sources */,
+				4B7523F92902FD0E007184D6 /* Home.swift in Sources */,
+				4B7523F82902FD0E007184D6 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
