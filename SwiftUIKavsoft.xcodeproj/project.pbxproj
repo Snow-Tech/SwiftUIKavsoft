@@ -42,14 +42,12 @@
 				4B7523F62902FD0E007184D6 /* BlurView.swift */,
 				4B7523F72902FD0E007184D6 /* Home.swift */,
 			);
-			name = ProfileTwitter;
-			path = SwiftUIKavsoft/ProfileTwitter;
+			path = ProfileTwitter;
 			sourceTree = "<group>";
 		};
 		4BB0E08D2902D8E000212AF9 = {
 			isa = PBXGroup;
 			children = (
-				4B7523F52902FD0E007184D6 /* ProfileTwitter */,
 				4BB0E0982902D8E000212AF9 /* SwiftUIKavsoft */,
 				4BB0E0972902D8E000212AF9 /* Products */,
 			);
@@ -66,6 +64,7 @@
 		4BB0E0982902D8E000212AF9 /* SwiftUIKavsoft */ = {
 			isa = PBXGroup;
 			children = (
+				4B7523F52902FD0E007184D6 /* ProfileTwitter */,
 				4BB0E0992902D8E000212AF9 /* SwiftUIKavsoftApp.swift */,
 				4BB0E09B2902D8E000212AF9 /* ContentView.swift */,
 				4BB0E09D2902D8E100212AF9 /* Assets.xcassets */,
